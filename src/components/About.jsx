@@ -7,7 +7,7 @@ const About = () => {
             </p>
             <div className="flex mt-10 max-md:flex-col max-md:w-full md:flex-col xl:flex-row-reverse">
             <div className="w-[60vw] xl:w-[60vw] p-12 order-2 max-md:-order-1 max-md:w-full md:w-full md:-order-1">
-                <p className="tracking-[2px] font-sans text-2xl font-[300] max-md:text-lg max-md:-mt-12 max-md:m-2 md:-mt-10">
+                <p className="tracking-[2px] font-sans text-2xl font-[300] max-md:text-lg max-md:-mt-23 max-md:m-2 md:-mt-10">
                 Hi I'm Andisamy! Passionate and detail-oriented Full 
                 Stack Web Developer in designing, 
                 developing, and maintaining dynamic and responsive web applications. 
@@ -20,7 +20,7 @@ const About = () => {
                 </p> 
             </div>
             <div className="xl:w-[35vw] drop-shadow-2xl flex max-md:justify-center max-md:w-full md:justify-center">
-                <img src={myphoto2} alt="myphoto2" className="max-sm:w-80 max-sm:-mt-10 max-sm:hover:size-84 max-sm:hover:-mt-10 w-[500px] rounded-4xl rounded-bl-none m-6 drop-shadow-yellow-100 hover:mt-6 hover:shadow-2xl hover:shadow-gray-600 hover:size-110" />
+                <img src={myphoto2} alt="myphoto2" className="max-sm:w-60  max-sm:-mt-10 max-sm:hover:size-84 max-sm:hover:-mt-10 w-[500px] rounded-4xl rounded-bl-none m-6 drop-shadow-yellow-100 hover:mt-6 hover:shadow-2xl hover:shadow-gray-600 hover:size-110" />
             </div>
             </div>
         </div>

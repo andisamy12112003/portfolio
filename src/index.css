@@ -10,7 +10,8 @@
   }
 
   .home-btns {
-    @apply hover:text-[15px] font-light hover:m-1 hover:border-l-8 hover:font-extrabold hover:bg-gray-300 shadow-lg shadow-gray-400 hover:shadow-blue-400 text-lg rounded-xl p-4 min-w-60 h-10 flex items-center justify-center
+    @apply hover:text-[15px] font-light hover:m-1 hover:border-l-8 hover:font-extrabold hover:bg-gray-300
+    shadow-lg shadow-gray-400 hover:shadow-blue-400 text-lg rounded-xl p-4 min-w-60 h-10 flex items-center justify-center
   }
 
   .outfit-sans {
