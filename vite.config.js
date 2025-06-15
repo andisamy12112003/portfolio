@@ -3,9 +3,5 @@ import tailwindcss from '@tailwindcss/vite'
 import react from "@vitejs/plugin-react"
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  build: {
-    rollupOptions: {
-      external: ["react-icons/fa"],
-    },
-  },
+  base:"/portfolio/"
 });
