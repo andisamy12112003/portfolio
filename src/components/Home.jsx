@@ -86,10 +86,11 @@ const Home = () => {
             <div id="resume" className="max-md:p-12 w-full h-auto bg-skin flex flex-center justify-center items-center ">
                 <div className="w-[60vw] text-center">
                     <div className="capitalize text-[45px] outfit-sans ">
-                        <p className="flex justify-center max-md:flex-col max-md:items-center max-lg:flex-col max-lg:items-center">Click and Dowload my resume here <span className="m-5"><IoMdDownload/></span></p>
+                        <p className="flex justify-center max-md:flex-col max-md:items-center max-lg:flex-col max-lg:items-center max-sm:text-xl">
+                        Click and Dowload my resume here <span className="m-5"><IoMdDownload/></span></p>
                     </div>
                 <div className="flex justify-center ">
-                    <a href={resume} download={resume} className="bg-blue-600 m-10 p-4 rounded-2xl text-white font-bold flex">
+                    <a href={resume} download={resume} className="bg-blue-600 m-10 p-4 rounded-2xl text-white font-bold flex max-sm:p-2 max-sm:text-lg max-sm:-mt-3">
                         Download <span className="m-1 ml-2"><FaDownload/></span>
                     </a>
                 </div>
