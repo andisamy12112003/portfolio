@@ -48,12 +48,12 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col m-2 gap-5 mt-18 max-sm:mt-6 ">
                         <div className="flex gap-x-3 max-sm:flex-col max-sm:gap-y-4 ">
-                        <a href={resume} download={resume} className="home-btns roboto-mono max-sm:w-20 "><span className="m-2 "> <FaAddressCard size={30}/></span>Resume</a>
+                        <a href={resume} download="RndisamyResume_2025" className="home-btns roboto-mono max-sm:w-20 "><span className="m-2 "> <FaAddressCard size={30}/></span>Resume</a>
                         <a href="#project" className="home-btns roboto-mono max-sm:w-20 ">View My Projects <span className="m-2"><FaArrowRight/></span> </a>
                         </div>
                         <div className="flex gap-x-4 mt-4 max-sm:justify-center">
                             <a className="hover:shadow-xl" 
-                            href="https://github.com/ANDISAMY-WEBDEVELOPER" target="_blank"><FaGithub className="w-10 h-10 m-3 hover:size-12 max-sm:w-6 max-sm:hover:w-8"/></a>
+                            href="https://github.com/andisamy12112003" target="_blank"><FaGithub className="w-10 h-10 m-3 hover:size-12 max-sm:w-6 max-sm:hover:w-8"/></a>
                             <a className="hover:shadow-xl" 
                             href="https://www.linkedin.com/in/andisamy-a-9401a1291/" target="_blank"><FaLinkedin className="w-10 h-10 m-3 hover:size-12 max-sm:w-6 max-sm:hover:w-8"/></a>
                             <a className="hover:shadow-xl" 
@@ -90,7 +90,7 @@ const Home = () => {
                         Click and Dowload my resume here <span className="m-5"><IoMdDownload/></span></p>
                     </div>
                 <div className="flex justify-center ">
-                    <a href={resume} download={resume} className="bg-blue-600 m-10 p-4 rounded-2xl text-white font-bold flex max-sm:p-2 max-sm:text-lg max-sm:-mt-3">
+                    <a href={resume} download="AndisamyResume_2025" className="bg-blue-600 m-10 p-4 rounded-2xl text-white font-bold flex max-sm:p-2 max-sm:text-lg max-sm:-mt-3">
                         Download <span className="m-1 ml-2"><FaDownload/></span>
                     </a>
                 </div>
