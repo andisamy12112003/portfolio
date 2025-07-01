@@ -2,7 +2,7 @@ import myphoto from "../assets/myphoto.jpg"
 import About from "./About";
 import Skills from "./Skills";
 import Contact from "./Contact";
-import resume  from "../assets/resume.pdf";
+import AndisamyResume  from "../assets/AndisamyResume.pdf";
 import { FaAddressCard } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import { FaDownload } from "react-icons/fa";
@@ -48,7 +48,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col m-2 gap-5 mt-18 max-sm:mt-6 ">
                         <div className="flex gap-x-3 max-sm:flex-col max-sm:gap-y-4 ">
-                        <a href={resume} download="RndisamyResume_2025" className="home-btns roboto-mono max-sm:w-20 "><span className="m-2 "> <FaAddressCard size={30}/></span>Resume</a>
+                        <a href={AndisamyResume} download="" className="home-btns roboto-mono max-sm:w-20 "><span className="m-2 "> <FaAddressCard size={30}/></span>Resume</a>
                         <a href="#project" className="home-btns roboto-mono max-sm:w-20 ">View My Projects <span className="m-2"><FaArrowRight/></span> </a>
                         </div>
                         <div className="flex gap-x-4 mt-4 max-sm:justify-center">
@@ -90,7 +90,7 @@ const Home = () => {
                         Click and Dowload my resume here <span className="m-5"><IoMdDownload/></span></p>
                     </div>
                 <div className="flex justify-center ">
-                    <a href={resume} download="AndisamyResume_2025" className="bg-blue-600 m-10 p-4 rounded-2xl text-white font-bold flex max-sm:p-2 max-sm:text-lg max-sm:-mt-3">
+                    <a href={AndisamyResume} download="" className="bg-blue-600 m-10 p-4 rounded-2xl text-white font-bold flex max-sm:p-2 max-sm:text-lg max-sm:-mt-3">
                         Download <span className="m-1 ml-2"><FaDownload/></span>
                     </a>
                 </div>
