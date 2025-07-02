@@ -11,20 +11,20 @@ const Projects = () => {
                 <div className="flex flex-wrap justify-center max-sm:-mt-12 lg:flex-wrap">
                 {/*project one */}
                 <a href="https://jobby-eta-two.vercel.app/" target="__black" className="max-sm:mt-10 m-7">
-                        <img src={project1} className="xl:w-140 lg:w-190 lg:h-120 lg:hover:shadow-2xl
-                        max-lg:w-120 max-lg:h-120 max-lg:hover:w-92 max-lg:hover:mt-2 max-lg:shadow-2xl max-md:w-90 max-md:h-90 max-md:shadow-2xl rounded-2xl max-sm:h-50" />
+                        <img src={project1} className="xl:w-140 lg:w-190  lg:h-120 lg:hover:shadow-2xl
+                        max-lg:w-120 max-lg:h-120 max-lg:shadow-2xl max-md:w-192 max-md:h-90 max-md:shadow-2xl rounded-2xl max-sm:h-50 max-lg:hover:w-192 max-lg:hover:mt-2" />
                         <div className="mt-9 ">
                         <h1 className="font-mono text-[16px] max-sm:-mt-6 max-lg:text-[22px] lg:text-[24px]"><span className="font-bold">Jobby</span> - Job Searching website</h1> 
                         <div  className="w-full text-sm max-lg:mt-2 mb-2 lg:text-[19px] lg:mt-2">   
-                            <p className="max-lg:text-[19px]">username:rahul</p> <br />
-                            <p className="max-sm:-mt-6 max-lg:text-[19px] max-lg:-mt-6 lg:-mt-6">password:rahul@2021</p>    
+                            <p className="max-lg:text-[19px]">username: rahul</p> <br />
+                            <p className="max-sm:-mt-6 max-lg:text-[19px] max-lg:-mt-6 lg:-mt-6">password: rahul@2021</p>    
                         </div>
                         </div>
                 </a>
                 {/*project two*/}
                 <a className="max-sm:mt-10 m-7" href="https://next-trendz.vercel.app/" target="__black">
                         <img src={project2} className="xl:w-140 lg:w-190  lg:h-120 lg:hover:shadow-2xl
-                        max-lg:w-120 max-lg:h-120 max-lg:shadow-2xl max-md:w-90 max-md:h-90 max-md:shadow-2xl rounded-2xl max-sm:h-50 max-lg:hover:w-92 max-lg:hover:mt-2"/>
+                        max-lg:w-120 max-lg:h-120 max-lg:shadow-2xl max-md:w-192 max-md:h-90 max-md:shadow-2xl rounded-2xl max-sm:h-50 max-lg:hover:w-192 max-lg:hover:mt-2"/>
                         <div className="mt-9 ">
                         <h1 className="font-mono text-[16px] max-sm:-mt-6 max-lg:text-[22px] lg:text-[24px]"><span className="font-bold">Next Trendz</span> - Video watching website</h1> 
                         <div  className="w-full text-sm max-lg:mt-2 mb-2 lg:text-[19px] lg:mt-2">   
