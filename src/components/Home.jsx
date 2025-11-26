@@ -2,7 +2,7 @@ import myphoto from "../assets/myphoto.jpg"
 import About from "./About";
 import Skills from "./Skills";
 import Contact from "./Contact";
-import AndisamyResume  from "../assets/AndisamyResume.pdf";
+import AndisamyResume  from "../assets/andisamy_resume.pdf";
 import { FaAddressCard } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import { FaDownload } from "react-icons/fa";
